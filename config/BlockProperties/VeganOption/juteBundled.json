@@ -1,0 +1,77 @@
+{
+  "_name": "VeganOption:juteBundled",
+  "stats": {
+    "opacity": 255,
+    "brightness": 0,
+    "hardness": 0.5,
+    "resistance": 2.5,
+    "sound": "grass",
+    "slipperiness": 0.6,
+    "tool_data": [
+      {
+        "_meta": 0,
+        "tool": "axe",
+        "level": 0
+      },
+      {
+        "_meta": 1,
+        "tool": "axe",
+        "level": 0
+      },
+      {
+        "_meta": 2,
+        "tool": "axe",
+        "level": 0
+      },
+      {
+        "_meta": 4,
+        "tool": "axe",
+        "level": 0
+      },
+      {
+        "_meta": 5,
+        "tool": "axe",
+        "level": 0
+      },
+      {
+        "_meta": 6,
+        "tool": "axe",
+        "level": 0
+      },
+      {
+        "_meta": 8,
+        "tool": "axe",
+        "level": 0
+      },
+      {
+        "_meta": 9,
+        "tool": "axe",
+        "level": 0
+      },
+      {
+        "_meta": 10,
+        "tool": "axe",
+        "level": 0
+      },
+      {
+        "_meta": 12,
+        "tool": "axe",
+        "level": 0
+      },
+      {
+        "_meta": 13,
+        "tool": "axe",
+        "level": 0
+      },
+      {
+        "_meta": 14,
+        "tool": "axe",
+        "level": 0
+      }
+    ]
+  },
+  "break_speed": [],
+  "drops": [],
+  "harvest": [],
+  "xp": []
+}

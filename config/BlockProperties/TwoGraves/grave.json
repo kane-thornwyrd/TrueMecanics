@@ -1,0 +1,21 @@
+{
+  "_name": "TwoGraves:grave",
+  "stats": {
+    "opacity": 0,
+    "brightness": 0,
+    "hardness": 3.0,
+    "resistance": 18000.0,
+    "sound": "stone",
+    "slipperiness": 0.6,
+    "tool_data": [
+      {
+        "tool": "axe",
+        "level": 1
+      }
+    ]
+  },
+  "break_speed": [],
+  "drops": [],
+  "harvest": [],
+  "xp": []
+}

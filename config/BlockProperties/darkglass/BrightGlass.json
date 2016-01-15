@@ -1,0 +1,16 @@
+{
+  "_name": "darkglass:BrightGlass",
+  "stats": {
+    "opacity": 1000000,
+    "brightness": 12,
+    "hardness": 0.3,
+    "resistance": 1.5,
+    "sound": "glass",
+    "slipperiness": 0.6,
+    "tool_data": []
+  },
+  "break_speed": [],
+  "drops": [],
+  "harvest": [],
+  "xp": []
+}
