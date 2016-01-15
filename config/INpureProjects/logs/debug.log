@@ -179,8 +179,8 @@ Found ItemStack minecraft:spawn_egg. 64xitem.monsterPlacer@0
 Loading: ThermalExpansion.js
 Loading: Mekanism.js
 Loading: ForgeMicroblock.js
-getRandomMaterial called. Returned: ImmersiveEngineering:storage_4
-obliterate_microblocks called (version in info.inpureprojects.core.NEI.gtfoMicroblocks.ScriptObjects.ForgeMicroblockObject). Params: 1,2,4,257,258,260,513,514,516,769,770,772, ImmersiveEngineering:storage_4
+getRandomMaterial called. Returned: ImmersiveEngineering:metalDecoration_5
+obliterate_microblocks called (version in info.inpureprojects.core.NEI.gtfoMicroblocks.ScriptObjects.ForgeMicroblockObject). Params: 1,2,4,257,258,260,513,514,516,769,770,772, ImmersiveEngineering:metalDecoration_5
 Loading: ExtraUtilities.js
 Loading: BuildCraft.js
 Loading: Bibliocraft.js
