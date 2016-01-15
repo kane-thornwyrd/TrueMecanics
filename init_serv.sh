@@ -3,9 +3,9 @@
 # -------------------------------------------------
 # PARTIE A EDITER :
 # -------------------------------------------------
-SCREEN=$1  # nom utilisé pour le screen
-NAME=$2  # nom du serveur, uniquement pour l'affichage des messages
-COMMAND=`pwd`/$3  # commande de lancement du serveur
+SCREEN=$2  # nom utilisé pour le screen
+NAME=$3  # nom du serveur, uniquement pour l'affichage des messages
+COMMAND=`pwd`/$4  # commande de lancement du serveur
 
 #cd /home/minecraft/mc_adventure/  # emplacement du serveur
 # ------------------------------------------------
