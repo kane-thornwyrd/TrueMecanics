@@ -1,13 +1,9 @@
 #!/bin/bash
 
 # -------------------------------------------------
-# PARTIE A EDITER :
-# -------------------------------------------------
-SCREEN=$2  # nom utilisé pour le screen
-NAME=$3  # nom du serveur, uniquement pour l'affichage des messages
-COMMAND=`pwd`/$4  # commande de lancement du serveur
-
-#cd /home/minecraft/mc_adventure/  # emplacement du serveur
+SCREEN="$2"  # nom utilisé pour le screen
+NAME="$3"  # nom du serveur, uniquement pour l'affichage des messages
+COMMAND="`pwd`/$4"  # commande de lancement du serveur
 # ------------------------------------------------
 
 running(){
@@ -27,6 +23,7 @@ echo "Server [$NAME] is already running"
   else
 echo "Starting server [$NAME]"
    screen -dmS $SCREEN $COMMAND
+   echo $COMMAND
   fi
   ;;
  status)
