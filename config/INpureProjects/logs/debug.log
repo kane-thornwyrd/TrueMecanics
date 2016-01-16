@@ -76,6 +76,8 @@ Found creative tab: tabEnderOre
 Found creative tab: extrabiomesTab
 Found creative tab: decorations
 Found creative tab: food
+Found creative tab: GalacticraftItems
+Found creative tab: GalacticraftBlocks
 Found creative tab: Highlands
 Found creative tab: ImmersiveEngineering
 Found creative tab: jabba
@@ -84,7 +86,6 @@ Found creative tab: Magneticraft|Steam Age
 Found creative tab: Magneticraft|Main
 Found creative tab: Magneticraft|Electrical Age
 Found creative tab: Magneticraft|Information Age
-Found creative tab: tabMoon
 Found creative tab: buildingBlocks
 Found creative tab: Nether Ores
 Found creative tab: tabPneumaticCraft
@@ -179,8 +180,8 @@ Found ItemStack minecraft:spawn_egg. 64xitem.monsterPlacer@0
 Loading: ThermalExpansion.js
 Loading: Mekanism.js
 Loading: ForgeMicroblock.js
-getRandomMaterial called. Returned: ImmersiveEngineering:metalDecoration_5
-obliterate_microblocks called (version in info.inpureprojects.core.NEI.gtfoMicroblocks.ScriptObjects.ForgeMicroblockObject). Params: 1,2,4,257,258,260,513,514,516,769,770,772, ImmersiveEngineering:metalDecoration_5
+getRandomMaterial called. Returned: ImmersiveEngineering:storage_3
+obliterate_microblocks called (version in info.inpureprojects.core.NEI.gtfoMicroblocks.ScriptObjects.ForgeMicroblockObject). Params: 1,2,4,257,258,260,513,514,516,769,770,772, ImmersiveEngineering:storage_3
 Loading: ExtraUtilities.js
 Loading: BuildCraft.js
 Loading: Bibliocraft.js

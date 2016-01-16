@@ -175,8 +175,7 @@
                     "custommainmenu:textures/gui/diaporama/wall1.png",
                     "custommainmenu:textures/gui/diaporama/wall2.png",
                     "custommainmenu:textures/gui/diaporama/wall3.png",
-                    "custommainmenu:textures/gui/diaporama/wall4.png",
-                    "custommainmenu:textures/gui/diaporama/wall5.png"
+                    "custommainmenu:textures/gui/diaporama/wall4.png"
                 ],
                 "displayDuration" : 10,
                 "fadeDuration" : 50
