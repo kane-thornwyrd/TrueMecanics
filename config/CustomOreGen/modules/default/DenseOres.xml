@@ -54,11 +54,11 @@
                     </Choice>
                     <Choice value='none' displayValue='None' description='Iron is not generated in the world.'/>
                 </OptionChoice>
-                <OptionNumeric name='dnsoIronFreq' default='5'  min='0' max='5' displayState=':= if(?enableDenseOres, if(?advOptions, "shown", "hidden"), "hidden")' displayGroup='groupDenseOres'>
+                <OptionNumeric name='dnsoIronFreq' default='1'  min='0' max='5' displayState=':= if(?enableDenseOres, if(?advOptions, "shown", "hidden"), "hidden")' displayGroup='groupDenseOres'>
                     <Description> Frequency multiplier for Dense Ores Iron distributions </Description>
                     <DisplayName>Dense Ores Iron Freq.</DisplayName>
                 </OptionNumeric>
-                <OptionNumeric name='dnsoIronSize' default='5'  min='0' max='5' displayState=':= if(?enableDenseOres, if(?advOptions, "shown", "hidden"), "hidden")' displayGroup='groupDenseOres'>
+                <OptionNumeric name='dnsoIronSize' default='1'  min='0' max='5' displayState=':= if(?enableDenseOres, if(?advOptions, "shown", "hidden"), "hidden")' displayGroup='groupDenseOres'>
                     <Description> Size multiplier for Dense Ores Iron distributions </Description>
                     <DisplayName>Dense Ores Iron Size</DisplayName>
                 </OptionNumeric>
@@ -88,7 +88,7 @@
                     </Choice>
                     <Choice value='none' displayValue='None' description='Gold is not generated in the world.'/>
                 </OptionChoice>
-                <OptionNumeric name='dnsoGoldFreq' default='2'  min='0' max='5' displayState=':= if(?enableDenseOres, if(?advOptions, "shown", "hidden"), "hidden")' displayGroup='groupDenseOres'>
+                <OptionNumeric name='dnsoGoldFreq' default='1'  min='0' max='5' displayState=':= if(?enableDenseOres, if(?advOptions, "shown", "hidden"), "hidden")' displayGroup='groupDenseOres'>
                     <Description> Frequency multiplier for Dense Ores Gold distributions </Description>
                     <DisplayName>Dense Ores Gold Freq.</DisplayName>
                 </OptionNumeric>
