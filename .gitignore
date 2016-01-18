@@ -1,2 +1,5 @@
-*.log
+**.log
+**/*.log
 **/logs/**
+config/splash.properties
+*.log
