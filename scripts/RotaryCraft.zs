@@ -5,6 +5,7 @@ import minetweaker.liquid.ILiquidStack;
 import mods.nei.NEI;
 import mods.railcraft.Rolling;
 import mods.immersiveengineering.Squeezer;
+import mods.immersiveengineering.MetalPress;
 
 
 
@@ -12,6 +13,19 @@ var ferromagneticIngot = <ReactorCraft:reactorcraft_item_crafting:10>;
 var ferromagneticPlate = <ReactorCraft:reactorcraft_item_crafting:5>;
 recipes.remove(ferromagneticPlate);
 Rolling.addShaped(ferromagneticPlate, [[ferromagneticIngot, ferromagneticIngot], [ferromagneticIngot, ferromagneticIngot]]);
+var ingotFerromagnetic = <ore:ingotFerromagnetic>;
+var plateFerromagnetic = <ore:plateFerromagnetic>;
+ingotFerromagnetic.add(ferromagneticIngot);
+var plateMold = <ImmersiveEngineering:mold>;
+
+var hammer = <ImmersiveEngineering:tool>;
+recipes.addShapeless(<contenttweaker:fourFeromagneticIngots>, [ingotFerromagnetic,ingotFerromagnetic,ingotFerromagnetic,ingotFerromagnetic, hammer.marked("hamr")],function(output, inputs, crafting){
+  inputs.hamr.damage + 4;
+  return output;
+});
+
+
+MetalPress.addRecipe(ferromagneticPlate, <contenttweaker:fourFeromagneticIngots>, plateMold, 10000);
 
 
 

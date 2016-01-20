@@ -4,3 +4,4 @@ Item.registerItem("mecontrolingplate", "mecontrolingplate", "MEcontrolingPlate",
 Item.registerItem("enderioplate", "enderioplate", "enderioplate",'misc');
 Item.registerItem("appliedenergisticplate", "appliedenergisticplate", "AppliedEnergisticplate", 'misc');
 Item.registerItem("tungstenblend", "tungstenblend", "tungstenblend", 'misc');
+Item.registerItem("fourFeromagneticIngots", "fourFeromagneticIngots", "fourFeromagneticIngots", 'misc');
